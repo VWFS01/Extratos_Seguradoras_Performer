@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="IE" ContentHash="lgvKd_ehSUG9rQq78QgNKA" Selector="&lt;html title='Portal de Aplicações Volkswagen'/&gt;" Url="https://webuat01/PORTALVW/login.aspx?ReturnUrl=%2fportalvw" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0hiIqMlWyUUiDFw6STfgE6w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6bfe5b7313458168fc48e2980f34c9ec.png" xmlns="">03yfSWqtbWEqNnGxPziAoHA</imageRef>
+</TargetApp>

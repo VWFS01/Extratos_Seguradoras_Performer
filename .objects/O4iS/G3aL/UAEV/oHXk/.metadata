@@ -1,0 +1,14 @@
+﻿{
+  "Id": "oHXk-ombKU-ejQO4xMvZUA",
+  "Reference": "GQxzIwYqlUm1SbuhdojZXw/oHXk-ombKU-ejQO4xMvZUA",
+  "ParentRef": "GQxzIwYqlUm1SbuhdojZXw/UAEV9DDsOEmELFAn9G0ajQ",
+  "Name": "Botão - COMISSÕES A RECEBER",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Created": "2022-09-12T14:07:29.9728418Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-12T14:07:29.9728418Z"
+}

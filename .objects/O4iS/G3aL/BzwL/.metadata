@@ -1,0 +1,14 @@
+﻿{
+  "Id": "BzwLWxvC7UiQ87M6f_u1RA",
+  "Reference": "GQxzIwYqlUm1SbuhdojZXw/BzwLWxvC7UiQ87M6f_u1RA",
+  "ParentRef": "GQxzIwYqlUm1SbuhdojZXw/G3aL7Mr4YkCmxuQ2hiT_HQ",
+  "Name": "Login Portal VW",
+  "Type": "Screen",
+  "TaxonomyType": "Screen",
+  "Created": "2022-09-12T13:29:34.2108657Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=21.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-12T13:29:34.2108657Z"
+}

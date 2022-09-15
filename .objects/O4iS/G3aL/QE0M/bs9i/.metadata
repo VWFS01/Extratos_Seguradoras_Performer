@@ -1,0 +1,13 @@
+﻿{
+  "Id": "bs9iOE7fbEGU5rIQaa_WVg",
+  "Reference": "GQxzIwYqlUm1SbuhdojZXw/bs9iOE7fbEGU5rIQaa_WVg",
+  "ParentRef": "GQxzIwYqlUm1SbuhdojZXw/QE0Md8mx-0mb4v5ErNUldw",
+  "Name": "Botão Incluir",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2022-09-12T13:59:32.3731903Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2022-09-12T13:59:32.3731903Z"
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/entrada.aspx" ContentHash="XcQCyKy8C0-MI7NBdGHp5g" DesignTimeRectangle="933, 109, 136, 18" ElementType="Text" FriendlyName="'COMISSÕES A RECEBER'" FullSelectorArgument="&lt;webctrl aaname='COMISSÕES A RECEBER' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='COMISSÕES A RECEBER' tag='A' type='' check:text='COMISSÕES A RECEBER' /&gt;" Guid="11188003-9dae-4977-a684-d46fb6737bbb" ScopeSelectorArgument="&lt;html htmlwindowname='VVD_ONLINE' title='VVD on-line' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0cicY3PIne0-lQjR1TEhg2w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="ff572349b9b4e5c8beac628f34444d1f.png" xmlns="">0R67mjGP1_0aJHmHAKK_e3g</imageRef>
+</TargetAnchorable>

@@ -1,0 +1,125 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="VVD_NavigateTo_IncluirDemonstrativo" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1212,1554" sap2010:WorkflowViewState.IdRef="VVD_NavigateTo_IncluirDemonstrativo_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Core.Activities.SAP</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="VVD_NavigateTo_IncluirDemonstrativo" sap:VirtualizedContainerService.HintSize="476,1489" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message - Start" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;VVD_NavegarParaIncluirDemonstrativo - Iniciado.&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="VVD on-line" sap:VirtualizedContainerService.HintSize="434,1135" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Never" ScopeGuid="db3399cd-c00f-4ec8-95a4-41a78afb1496" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="376,919" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Botão - COMISSÕES A RECEBER'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db3399cd-c00f-4ec8-95a4-41a78afb1496" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/entrada.aspx" ContentHash="XcQCyKy8C0-MI7NBdGHp5g" DesignTimeRectangle="933, 109, 136, 18" ElementType="Text" FriendlyName="'Botão - COMISSÕES A RECEBER'" FullSelectorArgument="&lt;webctrl aaname='COMISSÕES A RECEBER' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='COMISSÕES A RECEBER' tag='A' type='' check:text='COMISSÕES A RECEBER' /&gt;" Guid="11188003-9dae-4977-a684-d46fb6737bbb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIwAAAAWCAYAAAASPXQbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALPSURBVGhD7ZaxUQQxDEVpgzqogzbogJyEDohJKIESGDISEhISIiIyCljmHfdvhLC/7ZmLbvRmPOu1LPlL1h6cbUWxQDVMsUQ1TLFENUyxxMk0zPn163Zx+7abXz187J7F8TmJhrl//toNGuXs6mV7ev/eW4pjU3+SiiX+NczN4+fuK9W4vHvfW37RV6yRf/75uvnzkMlrxI2xmce4/GIIZwOnCT3RlveMYregRjnvFuQcY8cajHRB7y6cb8vG2sgPnF7xp2FwZKMOAP1fAAjOQXhXIkDBcwwJzU0gPxVGxHjOBrw7Ta2zxSh2D2oS/XqggzME8VVPpwvcXThf2eRHHNVndKbTKw4NMwqWhYi8rkTVtdBaQ4wuiPUsTDjbjCbNW3m52D2Ig08ubou8B1+0gNPlbDDjyxNmzwSnVxwaho3qxBbOHg+imDRC3MtavpzYMEpE7xFnm9HkiuRi92AvcRmjZot1AXzl43S5vGAmJ54Q6+78wOkVh4YZfW3Ozjp24FAEscYTkVpDrEBMvijsjLwOLduMJhUpjlwwrbfOzbBPtGJFyFuxc3yna3QXzjfbdC8wqoXTK476CyNBPHlHrAbIBojpXRD7YqKRaFvR5C5WuHMBW9TscgBp0DzudbpcXuB8ZVOd0ay9o1o4vWL5f5hsjwJzosz5UrDpXYJcsUmy94VF24ym3p4W7lxAP7HyUH6ZmG/W4XSNNM/48hTkRG6juE6vODQMcIH5MNb0zpygEfbr4nPBmcd39mlvnBNfc+CMGRswd5p6icModgT/fA7oMlqwXxcAzNECThegAzv7BGu8j3LKftLh/MDpFX8aBkieTRoUJB6gRDRisXLxODC+M1fRiaPLkTANrYOzCadJRcqDPTOxRa8xWkUV+QKAM1h3ugTzaNNdON+WTTFHZzq94l/DFIWjGqZYohqmWKIapliiGqZYohqmWGDbfgAfbNfp04H0ZQAAAABJRU5ErkJggg==" InformativeScreenshot="ff572349b9b4e5c8beac628f34444d1f.png" Reference="GQxzIwYqlUm1SbuhdojZXw/oHXk-ombKU-ejQO4xMvZUA" ScopeSelectorArgument="&lt;html htmlwindowname='VVD_ONLINE' title='VVD on-line' /&gt;" SearchSteps="FuzzySelector" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click - Serviços" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db3399cd-c00f-4ec8-95a4-41a78afb1496" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/comissaoReceber/comissaoReceber.aspx" DesignTimeRectangle="1104, 108, 107, 15" ElementType="Icon" FriendlyName="'IMG apy0m0i3ICO'" FullSelectorArgument="&lt;webctrl id='apy0m0i3ICO' tableCol='1' tableRow='1' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl id='apy0m0i3ICO' type='' aaname='' tag='IMG' /&gt;" Guid="596956e2-6d2b-4928-8598-e82646f34dd6" ImageBase64="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" InformativeScreenshot="8d9ab9d4eea02a3f5fe14cf262b4f817.png" ScopeSelectorArgument="&lt;html htmlwindowname='VVD_ONLINE' title='Comissão a Receber' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Incluir/Alterar Demonst…'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db3399cd-c00f-4ec8-95a4-41a78afb1496" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/comissaoReceber/comissaoReceber.aspx" DesignTimeRectangle="1101, 167, 172, 20" ElementType="Text" FriendlyName="'Incluir/Alterar Demonst…'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='5' tag='TABLE' /&gt;&lt;webctrl tableCol='1' tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' aaname='Incluir/Alterar Demonstrativo' tag='TD' check:text='Incluir/Alterar Demonstrativo' /&gt;" Guid="349ed442-e228-4e70-8af7-8147ab0ff5c8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALAAAAAYCAYAAABa+HfdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAL+SURBVHhe7ZQ9alVRFIUzJ2tnI5ZOJKWT0NIJCFYWacRSsLAULCzsn36JX1huzrm5ITfmHdgLVt65+/+PXJz+4uLZy2ZzGV5dXd3c7fXfPxgZNZvnyj7g5tLsA24uzT7g5tLsA24uzT7g5tLsA24uzc0D/vLt++nV5Zt/ZHuJ7+u374c6+ePnrztt4PMXl9e2VZ6yzPfx89fTuw+fbnX/g9SYGNX7VHzoPEb+e3f32HzSA95Lhldj8Q2s7xwOOI/W+tLmqfgYB3wu3H3A/NKIQKedywLKPSiYtsRQBlg8cmAcfrWHHIZ2En+G6mAzX0J77ETWAzJv/U+aiwNpqxzWA4bWxHuUH13KjQ2MkXpmh2xrF7wFdhkTaAfU8Tvre+RvDnywsy7IW99R7UfzXgecepaFDObiKJrG8KV5mAOmEWTGwJY3GDVJ/PSHxufX3ObjnUOExMjY6NTP8kLiA7/Blm09YPPM8lOvPui1ydllTOXEA8qxQWZc5ZK4VQ62egF+j/zJiR3vtPU9q93vo3ivAx4VRGOjQeQSeCvH1kbqEMyVTHuZizJGDqgOnO8KawY1L76Ju2qE2OR8oHXM8lOvdWhX/bIPZbNd8EZuHFnjQLC375F/7g49+aF21Yd3resIHnLAtbnUQ97KbZZ3DgH4ToIqwy9B/lxiHV79ToLMS4zsM/X5rkSefpBv5jbLTy6Xit639tVP2dYBQ97A3dU4EOzte+SPrXryUAOc+Vi730fxwQdc5RaNnnfVA4edQwA5UIhdbdph1W/zIavDc6F+J0HmzUHrt1WjRJ59EsPvWf7sL/NaP/qMyRvZbBd+Q2PUtwR7+x75kz/93YHfs9r9PooPPmDeNgyQ0xj2AB0ykX45BJADUW9+mf7S4QB+iSO0ZQGJrbyCXLk8UG1l5gT4pn6Un9o8mjygzMlbqJ/tYmQLszbnAfb2PfLP3UHkdVezeo7k5gE3m+fOPuDm0uwDbi7NPuDm0uwDbi7NPuDm0uwDbi7NPuDm0rw54NPpN5/jKBoBnJHqAAAAAElFTkSuQmCC" InformativeScreenshot="1f4f3235e5425307026300d6d8fa10c7.png" ScopeSelectorArgument="&lt;html htmlwindowname='VVD_ONLINE' title='Comissão a Receber' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State - Incluir" EnableIfExists="False" sap:VirtualizedContainerService.HintSize="334,238" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="db3399cd-c00f-4ec8-95a4-41a78afb1496" Timeout="10" Version="V1">
+              <uix:NCheckState.IfNotExists>
+                <Throw DisplayName="Throw - SystemException" Exception="[New SystemException(&quot;Não foi possivel navegar para atela de inclusão do demonstativo.&quot;)]" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="Throw_1" />
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/comissaoReceber/DemonstrativoPagamento.aspx" ContentHash="Q3uDQYUo_069y9ozGexCHA" DesignTimeRectangle="1199, 159, 82, 20" ElementType="InputBox" FriendlyName="'Botão Incluir'" FullSelectorArgument="&lt;webctrl tableCol='3' tableRow='2' tag='INPUT' id='imgAdicionar' /&gt;" FuzzySelectorArgument="&lt;webctrl type='image' aaname='' tag='INPUT' id='imgAdicionar' /&gt;" Guid="a0f08062-0c48-44a4-9b65-3b3451c02d81" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAFYAAAAYCAYAAABgBArrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHmSURBVGhD7ZYxjsIwEEVzuzRcgmYl2r3NHoECKR0S2h4JLQUdFTTpUlARUSBm+VmMZidjZwBHFPGTPortiQ1PsUNG9Z5S4ieJ7Sl3sZvNJiVCVLGJ10hieyKJ7YkktoPJZEJZlt2DtoWHxWaf37er/9ccrR99LhLfPMA3Jvt5G9dangEyv37oHrQtvCxW+8Ky79E2xzcWmsN6jwVN7Ol0ovP5TJfL5VbVJsoTK7+wViOx1ADL/cAyX2gdjtz+UiyP72h4m1hOqMY39syaoXU4UqbLx/WDB/OhViOKWGC59hGq8Y3JfrmmFiuaWCmVi9WOhmhigWuHajRCNb4x2R9aMzS/hhSrSUUwL2qrqqLj8djIdbxNrKUGWO4HXfOF1pBAFupdWjJ5rrXb7baRiyfXEVUscAtyHm1LLPW8r2u8C/nyaollY6PRiFarFZVlSXVd32boQSzw/TAXCR/j4fj6HbzfUtMFJEGWT+x0OqXZbEbz+TyO2KGAbY3t3TyZkMlz7SuKghaLBS2XyzhHwVDAiwgvpPF4/CeXJc/zRup6vabdbhfn5TUU8NcJovAUHg6HRiCeTmx9BNfow1iUv1tDxB0L2PI4TxFt+3OSWAPuWIBIvKQQbftzvGJTXk9LbErcJLG9ZE+/N/3EubyAMhYAAAAASUVORK5CYII=" InformativeScreenshot="95c1e5cc2375b1b145b32d9ba58bcfa7.png" Reference="GQxzIwYqlUm1SbuhdojZXw/bs9iOE7fbEGU5rIQaa_WVg" ScopeSelectorArgument="&lt;html htmlwindowname='VVD_ONLINE' title='Demonstrativo de Pagamento' /&gt;" SearchSteps="FuzzySelector" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 100, 1920, 940" BrowserType="IE" ContentHash="e9SV9cAXNk6mi7WiychcNA" IconBase64="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" InformativeScreenshot="6b409ba73fb86bb9e874daa6850c7fe2.png" Reference="GQxzIwYqlUm1SbuhdojZXw/UAEV9DDsOEmELFAn9G0ajQ" Selector="&lt;html htmlwindowname='VVD_ONLINE' title='VVD on-line'/&gt;" Url="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/entrada.aspx" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message - Finish" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;VVD_NavegarParaIncluirDemonstrativo - Finalizado.&quot;]" />
+  </Sequence>
+</Activity>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 100, 1920, 940" BrowserType="IE" ContentHash="e9SV9cAXNk6mi7WiychcNA" Selector="&lt;html htmlwindowname='VVD_ONLINE' title='VVD on-line'/&gt;" Url="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/entrada.aspx" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">06KBKdULr5UOHZS5UM2JGpA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="6b409ba73fb86bb9e874daa6850c7fe2.png" xmlns="">04g_8VmTEQkOD_lBJvM65WA</imageRef>
+</TargetApp>

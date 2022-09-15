@@ -1,0 +1,177 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="VVD_Open" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_StrAcessoPortalVvd" Type="InArgument(x:String)" />
+  </x:Members>
+  <this:VVD_Open.in_StrAcessoPortalVvd>
+    <InArgument x:TypeArguments="x:String" />
+  </this:VVD_Open.in_StrAcessoPortalVvd>
+  <mva:VisualBasic.Settings>
+    <x:Null />
+  </mva:VisualBasic.Settings>
+  <sap:VirtualizedContainerService.HintSize>1212,2231</sap:VirtualizedContainerService.HintSize>
+  <sap2010:WorkflowViewState.IdRef>VVD_Open_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="62">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="60">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="VVD_Open" sap:VirtualizedContainerService.HintSize="476,2166" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message - Start" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;VVD_Abrir - Iniciado.&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Login Portal VW" sap:VirtualizedContainerService.HintSize="434,1318" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" IsIncognito="True" OpenMode="Always" ScopeGuid="0887346c-85f7-4016-a480-a28d0df2b516" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="376,1102" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="ss:SecureString" Name="sstrSenhaPortalVw" />
+              <Variable x:TypeArguments="x:String" Name="strUsuarioPortalVw" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_StrAcessoPortalVvd]" DisplayName="Get Credential - Acesso Portal" FolderPath="VWFS/FIN" sap:VirtualizedContainerService.HintSize="334,79" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[sstrSenhaPortalVw]" Username="[strUsuarioPortalVw]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - Usuário" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="0887346c-85f7-4016-a480-a28d0df2b516" Text="[strUsuarioPortalVw]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal/PORTALVW/login.aspx#" DesignTimeRectangle="669, 284, 582, 34" ElementType="InputBox" FriendlyName="'FAOLIVEI'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='text' aaname='' tag='INPUT' /&gt;" Guid="805677d5-c568-4e4a-99aa-dc6425aea069" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAkoAAAAmCAYAAAA7irSRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMmSURBVHhe7dldSuNgGIbh2aRrcA+uwS24BvfgsVDogYhCQRAU9aSUtv6UfsNb+zpf02Swg+3B5LrgYaZJGnN4k/6az+fFzMzMzLYnlMzMzMw6thFKs9ms3N3dlaurq3J5eWlmZmbWiw2HwzIajcpkMmkPpel0urro/v6+PD09lfF4bGZmZtaLvby8rBpoMBhsxNJXKEVFxdukCKa3t7fy/v5uZmZm1otF+0QDRSxFE22FUrxNiqL6+Pgoy+WyAAD0RbTPYrFYvU2Kt0pboRS/z0VNiSQAoI+igaKFoolaQylePQEA9FW0kFACAGghlAAAOgglAIAOQgkAoINQAgDoIJQAADr8aChdXFyUo6OjrZ2enq6v+HR8fLw6fnZ2tj6y6fz8/K/fj+/F8biuqT6X9zk5OVmf/XRzc7M6Hs8R4nx8bi6uC/H/vBYA6I+Dh1JGSqwtPjJ0mqtj57uhFDLKahlQeY1QAgDa7CWUmm+Aahky+W/GSKgjqj6esZNhs0so5ed4thTPV/+NDKX6b9binFACgP45eChFlER0ZBRFyKR801MfC8377hJK+d36nvG5Dh+hBAC02UsoNZcBknGUwRPx8Z2f1PJ7ee0uoRTq77aFU4ZSvfq54rNQAoD+OWgoRbzE57guNH8C21co1X8nz+czBKEEALTZSyh1/fTWFiSxjJoMqfptT2jed9dQyvvGfeIZmtGTz5XB1hTnhBIA9M9BQynOtS3f3uSbo1gdLREpcSzjZ9dQCnEszzWfTygBAG0OFkr5VidipZYRlDJmmsuYCl3X1OeaoZQxFIvnrNXn6mU4xf+FEgD0z8FCKYOoGSkZNnVAZVTlmvf7l1Cqv9MklACANj8aSgAA/xOhBADQQSgBAHQQSgAAHYQSAEAHoQQA0EEoAQB0EEoAAB06Q2k4HJbpdLq+DACgf15fX8tgMNgOpdFoVB4eHspyuVxfCgDQH9FA0UK3t7fboRRvk+JV0+Pjo1gCAHplsViU5+fn1S9s4/F4O5Ris9ls9WYpgsnMzMysL4uf266vr8tkMvnqothGKJmZmZnZnwklMzMzs9bNy28Pi0fEnrw7twAAAABJRU5ErkJggg==" InformativeScreenshot="73804335802f653680f1185a2e095c68.png" IsResponsive="True" ScopeSelectorArgument="&lt;html title='Portal de Aplicações Volkswagen' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="678, 259, 47, 20" ElementType="Text" FriendlyName="'Usuário'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='2' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='Usuário' tag='LABEL' check:text='Usuário' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADMAAAAYCAYAAABXysXfAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEsSURBVFhH7ZLBDYMwDEW7E1swBlswBUuwBVuwDEeqj/SkjwmIoKpKqxzewY7t+Nt+Lcuy/gtVTKlUMaVSxZTKTkzbthvu6/t+bZpmnaZp53/KMAxbPdVNvQP/zvOcfE/xdTF3hIiu67L//aqYTw3kjGwx4zhuNmiC8jNJ8rA5E9X1PNXxWMEJKid1Zp6f2m62GC8o1ID8V2KU6zlAo8SCfFFMHIbgb8gSo8IU8hhxJcbjBBtgQKlYF8MwfBuyY68HMQpyX5wQNtzZjNsOpxZzhf/LacfTjDk7MQSQpEKyY5JgukznrHnZcRPYd8U82gwTiMQijhqRP24MXEzkrhjZXI3DVcBOjIiCaFYwIYfPhPsRkGomdzP4yBc+YDiI+WWqmFKpYkqliimTZX0Dk5jc2s83p9oAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into - Senha" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,241" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="0887346c-85f7-4016-a480-a28d0df2b516" SecureText="[sstrSenhaPortalVw]" Version="V1">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal/PORTALVW/login.aspx#" DesignTimeRectangle="669, 343, 582, 34" ElementType="InputBoxPassword" FriendlyName="'INPUT logLogin_Password'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='3' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='password' aaname='' tag='INPUT' /&gt;" Guid="20d673a5-2a97-4977-9786-a436f9bd349f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAkoAAAAmCAYAAAA7irSRAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGpSURBVHhe7dldiupQEIXRO/+xCYE8iCAEBEFRX0JI/As5lwpNNxJrBFkLvrczgE2df/f7vUiSJGmZoSRJkpT0MZSGYSiHw6Fst9uy2WwkSZJWUV3XpWma0nXd96HU9/386Hg8lsvlUtq2lSRJWkW3223eQFVVfYyl36EUKyquSTGYns9neb1ekiRJqyi2T2ygGEuxiRZDKa5Jsaje73eZpqkAAKxFbJ9xHOdrUlyVFkMp/udiTRlJAMAaxQaKLRSb6OtQitMTAMBaxRYylAAAvjCUAAAShhIAQMJQAgBIGEoAAAlDCQAgYSgBACQMJQCAhKEEAJAwlAAAEoYSAEDCUAIASBhKAAAJQwkAIGEoAQAkDCUAgIShBACQMJQAABKGEgBAwlACAEgYSgAACUMJACBhKAEAJAwlAIBEOpTqui593/88AwBYn8fjUaqqWg6lpmnK6XQq0zT9PAUAWI/YQLGF9vv9cijFNSlOTefz2VgCAFZlHMdyvV7nH7a2bZdDKRqGYb4sxWCSJElaS/HdttvtStd1v7so+hhKkiRJ+stQkiRJ+tq9/AdAKWB/q2cNswAAAABJRU5ErkJggg==" InformativeScreenshot="3e568ebb5f0247603bdb3cabfa667bc3.png" ScopeSelectorArgument="&lt;html title='Portal de Aplicações Volkswagen' /&gt;" SearchSteps="FuzzySelector, Image">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target DesignTimeRectangle="678, 318, 37, 20" ElementType="Text" FriendlyName="'Senha'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='3' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' aaname='Senha' tag='LABEL' check:text='Senha' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACkAAAAYCAYAAABnRtT+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEKSURBVFhH7ZTBDYQgEEXtyS4swy6swibswhY82QxHNv/wzDBA3Lgc3IRNXsIwMjwZ2SH+wW84jiO+nSGEEN9Ol2xFl2xFJjmOY8J5nkn+Caozz3Mx9w2J5DRNmeS2bcmCJzST3Pf952I1mkmqrXfFlNMzYlmWa15jdWFd1ytvO0Bd2yly7Gvxn1jSbm3GgypYy4GkajnB2lKOl7QvBn7v7OLQdlCseY3tKasQMZKcACdOrDEb33WMtXYukwRbjLGnJklce0HF9rQUe6glEkn7HfmLpLFvA/wiqXnF5IiLkr7NgDgbW5BoIempSnoR/x/pC/qL80RSaxQDF6ko+Wa6ZCu6ZCu6ZBtC/ABbI3gtfkfangAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ClickType="Single" DisplayName="Click - LOGIN" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0887346c-85f7-4016-a480-a28d0df2b516" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal/PORTALVW/login.aspx#" DesignTimeRectangle="654, 417, 612, 34" ElementType="Button" FriendlyName="'LOGIN'" FullSelectorArgument="&lt;webctrl tableCol='1' tableRow='5' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='submit' aaname='LOGIN' tag='INPUT' check:text='LOGIN' /&gt;" Guid="fbed172c-cd80-46d0-b008-f38d7aaf3678" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAmgAAAAmCAYAAABwImd8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPlSURBVHhe7dzPi1ZlFAdw/wP/gpKIiJIkIiIigja1iLbtpIgIlGiREJEi9Au0HLU0xdUsKrGMjJIKtV+aYBQKKmVIGuqbU4bOOOhUIjfO3DnOnfedZ9Fi7nXxOfBh7nPO8zxzl1/uwMybmJioAAC4fghoAADXmRkB7fL5keqvbc9UZ19dVJ1eOg8AgDnUW7GgOje8uLrUOzZ7QItw1lt+YzW6bUn1784XqmrvEAAAc+jKrpcns9eZZfNnhLRrAS3S24V3nqiqb1YDANCisa1PTWaxgYAWn9gixVVfvQYAQIuu7nll8ivaQECLv4NWe14CAKADkcVmD2i7VgIA0IFyQPviRQAAOlAOaJ89DwBAB8oBbedzAAB0oBzQPnkWAIAOlAPax0sBAOhAOaB99DQAAB0oB7TtTwK0q3eomqzjX84+D+Mj9Z6sQ1sH93y9amrYqOadUf+MT6/jOap5VzxHxTtlD6Al5YD2/uMA7eodrEPR8d2zzzNI9Vdz/8F3p5p9FWdzT/86743wl728J94pewAtKQe09x4DaNfpH+pQ9Mvn5dnF36d7Pw7Xvajs/X2xXsf+7IXdK6efo2JfrvNMVP7uvLv/HoAWlAPa8CMA7Tp1oA5FP306OBvr1bP4H0HN/p8/1/0DW+pZVOxt7ukXFaEs1/Ec4lz2476oeKfcB9CSckDb8iBAu37bX4eiozsGZxNj9ay/3zyzf0P9HL3+fU1RcV+u8+48/3/uApgD5YC2+X6Adp3cV4eiIx8OziZG61l/v3kmREUvZt+tr9dZeSYq7st18+6Ro/U6z+ZdAC0qB7RN9wG0qxm2+mejp+rZjiUz+xGoovatq2dRsTdm0WtWnomKEJbrDGjxnHfku8TP3AfQknJAe/tegHad3FuHosPby7MIX9nbt7buRWUvw1bzjgx3uY6KfbnOM7keOVKvo+L3Zh+gJeWAtvEegHadmAph/ZXzDFL9dfiD6T3xXKrcExV35TrvzXX8o8iseKfsA7SkHNA23A3QrhPfTqWivmruuTD1NSxr75qZ8xC9/mrui4pQlusMaLkOZw/XvXinZh+gBeWA9tZdAAB0oBzQ3rwTAIAOlAPa+kUAAHSgHNDW3QEAQAfKAW3tQgAAOlAOaEO3AQDQgXJAW3MrAAAdKAe0N24BAKADswa03ooF1ZU1C6vq9ZsBAGjR1XWLqjPL5g8GtHPDi6vRTQ9X1eqbAABoUWSwPzY9OhjQLp8fmfy0NhnSVi0AAGCOXR26vRrf/FDVW35DNf7r94MBLUNafEmLoAYAwNyKP2uODD1QXeodu5bHwoyABgBA9wQ0AIDrykT1H10n6X+WUCEzAAAAAElFTkSuQmCC" InformativeScreenshot="caff2ed88d5aaf3c23a5c18922737622.png" ScopeSelectorArgument="&lt;html title='Portal de Aplicações Volkswagen' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ClickType="Single" DisplayName="Click - VVD Online" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0887346c-85f7-4016-a480-a28d0df2b516" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://portal/PORTALVW/default.aspx" DesignTimeRectangle="41, 204, 90, 60" ElementType="Text" FriendlyName="'VVD Online'" FullSelectorArgument="&lt;webctrl isleaf='1' parentid='listaSistemasFavoritos' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='listaSistemasFavoritos' tag='DIV' type='' aaname='VVD Online' check:text='VVD Online' /&gt;" Guid="091570a9-2e60-480e-9186-7225bad004c9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAF4AAABACAYAAACTDsCFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALSSURBVHhe7ZixahVBFIbzBnkBfQFfIE9glU5SWgsRrFLYiEJiEV8gbUDs7C0SyAMIt0shBOzEQkgTsN3wX/jDz8nZu7k7c3NA/wMf2TtnZnbmm9nZJVtPXh4P5vGx+CIsvgiLL8Lii7D4Iiy+iP9K/PvP5wMiyz02s8WvmgTi2/cfw/XN33u5F0dflnlcny2ultcap2eLe20U3lcjq5ehY+Y4pu63KZp2PMTGgeP3z9/Xy2sEJqt5yF5c/bq7Zl1AGcxH0DcC9VjGxdOyMf6JHQ+iOIDfKMc1BEaJulhZe8rJRGYLDeI9cY26DNaL4hHcGOiDC4uITyv6ZcQxz6FJPHeoliEoDZPSCcT6mXiQCWbbbEG0HwpSoVz8KfEI9o8xcDG5kGyHuszNpfnlqpLwN4pEcHIYrD4BKkxZJV7LiPaD/vUeOqYp8SpTx4qcjieb57o0i9dJxwECFQGhnChYJV7rgakdz3vo/UAP8RhPjGzc69AsXoXwr+Y5WeY1l4mPchREXFiAPli+CfHafy+axQMMjGR57BjkVAjIxCNUgIJyhJahT/Svv3uLz8bZShfxmBxibFdQGCcZyzWmdlZso9LBJsQDXGto3Tl0EW/Wx+KLsPgiLL4Iiy/C4ouw+CIsvgiLL8Lii7D4Iiy+CIsvwuKLsPgiLL4Iiy/C4ouw+CIsvgiLL8Lii7D4Iiy+CIsvwuKLsPgiLL4Ii+/M6zd7w+6r/TSnWHxnvr57Npy83UlzisV35s+nreHy43aaUyy+I4cHz5fiAY6crA6x+I5cfHh6J37quLH4TuCFSulg6rix+DXBy1MFzwHHkMXPRM/zh6KfmRbfSCY4grM/trP4Dqw6fvBkZG0svgP6NRMZ+7qx+Ebi10xk7OvG4huJL1l8sWCXx7LYzuIb4TETd7Y+CdlxY/GNjIklWJjsuLH4BnDMPORfwFk9iy/C4ouw+BKOh1utCLNyN2FGhgAAAABJRU5ErkJggg==" InformativeScreenshot="e5c09646cdb6a36bcbc8ec0c9cceb8a1.png" ScopeSelectorArgument="&lt;html title='Volkswagen - Home' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="IE" ContentHash="lgvKd_ehSUG9rQq78QgNKA" IconBase64="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" InformativeScreenshot="6bfe5b7313458168fc48e2980f34c9ec.png" Reference="GQxzIwYqlUm1SbuhdojZXw/BzwLWxvC7UiQ87M6f_u1RA" Selector="&lt;html title='Portal de Aplicações Volkswagen'/&gt;" Url="https://webuat01/PORTALVW/login.aspx?ReturnUrl=%2fportalvw" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="VVD on-line" sap:VirtualizedContainerService.HintSize="434,454" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="Simulate" OpenMode="Never" ScopeGuid="46eb7ecd-9935-451c-a92b-e89d36037bdc" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Botão - COMISSÕES A RECEBER'" EnableIfExists="False" sap:VirtualizedContainerService.HintSize="334,238" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="46eb7ecd-9935-451c-a92b-e89d36037bdc" Timeout="10" Version="V1">
+            <uix:NCheckState.IfNotExists>
+              <Throw DisplayName="Throw - SystemException" Exception="[New SystemException(&quot;Não foi possivel logar no VVD Online.&quot;)]" sap:VirtualizedContainerService.HintSize="250,22" sap2010:WorkflowViewState.IdRef="Throw_2" />
+            </uix:NCheckState.IfNotExists>
+            <uix:NCheckState.Target>
+              <uix:TargetAnchorable BrowserURL="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/entrada.aspx" ContentHash="XcQCyKy8C0-MI7NBdGHp5g" DesignTimeRectangle="933, 109, 136, 18" ElementType="Text" FriendlyName="'Botão - COMISSÕES A RECEBER'" FullSelectorArgument="&lt;webctrl aaname='COMISSÕES A RECEBER' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='COMISSÕES A RECEBER' tag='A' type='' check:text='COMISSÕES A RECEBER' /&gt;" Guid="11188003-9dae-4977-a684-d46fb6737bbb" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIwAAAAWCAYAAAASPXQbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALPSURBVGhD7ZaxUQQxDEVpgzqogzbogJyEDohJKIESGDISEhISIiIyCljmHfdvhLC/7ZmLbvRmPOu1LPlL1h6cbUWxQDVMsUQ1TLFENUyxxMk0zPn163Zx+7abXz187J7F8TmJhrl//toNGuXs6mV7ev/eW4pjU3+SiiX+NczN4+fuK9W4vHvfW37RV6yRf/75uvnzkMlrxI2xmce4/GIIZwOnCT3RlveMYregRjnvFuQcY8cajHRB7y6cb8vG2sgPnF7xp2FwZKMOAP1fAAjOQXhXIkDBcwwJzU0gPxVGxHjOBrw7Ta2zxSh2D2oS/XqggzME8VVPpwvcXThf2eRHHNVndKbTKw4NMwqWhYi8rkTVtdBaQ4wuiPUsTDjbjCbNW3m52D2Ig08ubou8B1+0gNPlbDDjyxNmzwSnVxwaho3qxBbOHg+imDRC3MtavpzYMEpE7xFnm9HkiuRi92AvcRmjZot1AXzl43S5vGAmJ54Q6+78wOkVh4YZfW3Ozjp24FAEscYTkVpDrEBMvijsjLwOLduMJhUpjlwwrbfOzbBPtGJFyFuxc3yna3QXzjfbdC8wqoXTK476CyNBPHlHrAbIBojpXRD7YqKRaFvR5C5WuHMBW9TscgBp0DzudbpcXuB8ZVOd0ay9o1o4vWL5f5hsjwJzosz5UrDpXYJcsUmy94VF24ym3p4W7lxAP7HyUH6ZmG/W4XSNNM/48hTkRG6juE6vODQMcIH5MNb0zpygEfbr4nPBmcd39mlvnBNfc+CMGRswd5p6icModgT/fA7oMlqwXxcAzNECThegAzv7BGu8j3LKftLh/MDpFX8aBkieTRoUJB6gRDRisXLxODC+M1fRiaPLkTANrYOzCadJRcqDPTOxRa8xWkUV+QKAM1h3ugTzaNNdON+WTTFHZzq94l/DFIWjGqZYohqmWKIapliiGqZYohqmWGDbfgAfbNfp04H0ZQAAAABJRU5ErkJggg==" InformativeScreenshot="ff572349b9b4e5c8beac628f34444d1f.png" Reference="GQxzIwYqlUm1SbuhdojZXw/oHXk-ombKU-ejQO4xMvZUA" ScopeSelectorArgument="&lt;html htmlwindowname='VVD_ONLINE' title='VVD on-line' /&gt;" SearchSteps="FuzzySelector" />
+            </uix:NCheckState.Target>
+          </uix:NCheckState>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 100, 1920, 940" BrowserType="IE" ContentHash="e9SV9cAXNk6mi7WiychcNA" IconBase64="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" InformativeScreenshot="6b409ba73fb86bb9e874daa6850c7fe2.png" Reference="GQxzIwYqlUm1SbuhdojZXw/UAEV9DDsOEmELFAn9G0ajQ" Selector="&lt;html htmlwindowname='VVD_ONLINE' title='VVD on-line'/&gt;" Url="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/entrada.aspx" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message - Finish" sap:VirtualizedContainerService.HintSize="434,91" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;VVD_Abrir - Finalizado.&quot;]" />
+  </Sequence>
+</Activity>

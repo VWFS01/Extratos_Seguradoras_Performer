@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" BrowserType="IE" ContentHash="vlWVXw0U-UOINGYzxqiYIw" Selector="&lt;html htmlwindowname='VVD_ONLINE' title='Demonstrativo de Pagamento'/&gt;" Url="https://webuat01/VVD_ONLINE/app/comissaoReceber/ManipulaDemonstrativoPagamento.aspx?numeroDemonstrativo=" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0RTLXArx1d0euUG9pLueX8Q</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="acaa14cd2d74f2555766846bcceef8fc.png" xmlns="">0vbY1NGXkdESR-Z46mK2cEw</imageRef>
+</TargetApp>

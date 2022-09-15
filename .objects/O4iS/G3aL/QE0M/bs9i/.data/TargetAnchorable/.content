@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable BrowserURL="https://portal.fs55.vwf.vwfs-ad/VVD_ONLINE/app/comissaoReceber/DemonstrativoPagamento.aspx" ContentHash="Q3uDQYUo_069y9ozGexCHA" DesignTimeRectangle="1199, 159, 82, 20" ElementType="InputBox" FriendlyName="'INPUT imgAdicionar'" FullSelectorArgument="&lt;webctrl tableCol='3' tableRow='2' tag='INPUT' id='imgAdicionar' /&gt;" FuzzySelectorArgument="&lt;webctrl type='image' aaname='' tag='INPUT' id='imgAdicionar' /&gt;" Guid="a0f08062-0c48-44a4-9b65-3b3451c02d81" Reference="GQxzIwYqlUm1SbuhdojZXw/bs9iOE7fbEGU5rIQaa_WVg" ScopeSelectorArgument="&lt;html htmlwindowname='VVD_ONLINE' title='Demonstrativo de Pagamento' /&gt;" SearchSteps="FuzzySelector" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0SSM2csuoy0mkCib5_iXADA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="95c1e5cc2375b1b145b32d9ba58bcfa7.png" xmlns="">0uimhZOqjlki5AWm4CoEfRQ</imageRef>
+</TargetAnchorable>
